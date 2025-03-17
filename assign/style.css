@@ -1,0 +1,236 @@
+body {
+    background-color: rgb(246, 247, 248);
+}
+nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: relative;
+   border-radius: 30px;
+   background-color: white;
+}
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+
+}
+
+a{
+    text-decoration: none;
+}
+.overview {
+    position: relative;
+    top: 2px;
+    right: 2px;
+    
+}
+.over-view {
+    padding: 10px;
+    transition: padding 0.3s ease, width 0.3s ease, height 0.3s ease;
+    height: auto;
+}
+.over-view:hover {
+    
+    background-color: rgb(1, 240, 208);
+    border-radius: 20px;
+}
+.patient-svg {
+    position: relative;
+    top: 2px;
+    right: 2px;
+}
+.schedule {
+    position: relative;
+    top: 2px;
+    right: 2px;
+}
+.message {
+    position: relative;
+    top: 2px;
+    right: 2px;
+}
+.transaction {
+    position: relative;
+    top: 2px;
+    right: 2px;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 4.5cm;
+    border: 2px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    
+}
+.profile img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.profile-info {
+    font-family: Arial, sans-serif;
+    position: relative;
+    left: 6px;
+}
+.profile h4 {
+    margin: 0;
+    font-size: 12px;
+    position: relative;
+    top: 10px;
+}
+.profile p {
+    color: rgb(112, 112, 112);
+    font-size: small;
+    opacity: 1;
+}
+.setting {
+    position: relative;
+    right: 25px;
+}
+.kebab-menu {
+    position: relative;
+    right: 0.5cm;
+}
+section {
+    background-color: white;
+    border: 50px;
+    border-radius: 10px;
+    width: 8.5cm;
+    position: relative;
+    left: 9.5px;
+}
+.search-icon {
+    position: relative;
+    left: 6cm;
+    bottom: 1cm;
+}
+.patient{
+    position: relative;
+    top: 20px;
+    color:  rgb(112, 112, 112); 
+}
+.More-horiz {
+   position: relative; 
+   left: 4cm;
+   bottom: 1.2cm;
+}
+.patients-list {
+    display: grid;
+    position: relative;
+    right: 4.5cm;
+}
+.patient-profile {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 4.5cm;
+    border: 2px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 2s;
+}
+.patient-profile:hover {
+    background-color: rgb(216, 252, 247);;
+}
+.patients-img {
+   position: relative;
+   right: 10px;
+   
+}
+.patients-info h4{
+    font: bold 14px / 19px Manrope;
+    position: relative;
+    top: 17px;
+ }
+.patients-info p{
+    font: bold 14px / 19px Manrope;
+    color:  rgb(112, 112, 112); 
+}\
+*  {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+.patient-overview {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 9.8cm;
+    bottom: 45.6cm;
+    width: 700px; 
+    height: 102vh;
+    border-radius: 20px;
+}
+.patient-overview h1 {
+    position: relative;
+    bottom: 9.3cm;
+    right: 7.5cm;
+}
+.profile-sidebar {
+   width: 320px; 
+   height: 105vh;
+   background-color: #fff;
+   padding: 20px;
+   position: relative;
+   bottom: 65.3cm;
+   left: 30cm;
+   border-radius: 20px;
+}
+.profile-sidebar h2 {
+    position: relative;
+    left: 78px;
+}
+.emily-img img {
+    position: relative;
+    left: 60px;
+    width: 200px;
+    height: 200px;
+}
+.details-Emily {
+    list-style: none;
+    text-align: left;
+
+}
+.details-Emily li {
+    color: aqua;
+    
+}
+.value {
+    text-align: left;
+    font: normal normal bold 14px / 19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+    position: relative;
+    left: 36px;
+}
+.label {
+    text-align: left;
+    font: normal normal lighter 14px / 19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.last-icon {
+    position: relative;
+    right: 30px;
+    top: 25px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: rgb(246, 247, 248);
+}
+
